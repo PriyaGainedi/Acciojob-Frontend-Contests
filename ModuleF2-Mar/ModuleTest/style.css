@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500;600&family=Mulish:ital,wght@0,200;0,300;0,500;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;1,300&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+    background-color: black;
+    font-family: 'Mulish', sans-serif;
+}
+header{
+    color:white;
+    margin-bottom: 30px;
+}
+.ip{
+    color:white;
+    padding:5px;
+    border: 1px ridge white;
+    background-color: black;
+    width: 15%;
+    flex-basis: 30%;
+    margin-bottom: 3px;
+}
+.ip-btn{
+    width: 30%;
+    height: 10%;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+.ip-container{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    flex-wrap: wrap;
+    /* margin-bottom: 20px; */
+}
+.main-container{
+    padding:15px;
+}
+.searchbar{
+    background-color: black;
+    color:white;
+    border: 1px ridge white;
+    padding: 10px;
+    width:100%;
+    box-sizing: border-box;
+    margin: 30px 0 30px 0;
+    float: right;
+}
+table{
+    color:white;
+    width: 100%;
+    border:1px ridge white;
+    box-sizing: border-box;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    border:1px ridge white ;
+}
+td{
+    border-right:1px ridge white;
+}
+.errormsg{
+    color:red;
+    display: inline-block;
+    margin:0;
+}
+.options{
+    display:none;
+}
+.searchbar input{
+    background-color: black;
+    border:0;
+    color:white;
+    width:90%;
+    overflow: visible;
+}
+.searchbar button{
+    float:right;
+    width:auto;
+}
+input:focus{
+    outline-width: 0;
+}
+
+
+@media (max-width: 590px) {
+    .ip-container{
+        flex-direction: column;
+    }
+    .ip{
+        width:50%;
+    }
+  }
