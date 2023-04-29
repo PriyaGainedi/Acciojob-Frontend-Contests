@@ -1,0 +1,53 @@
+*{
+    background-color: black;
+    color:#ffffff;
+}
+header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:5px;
+    border-bottom:2px solid #ffffff;
+}
+.signup, .profile{
+    display: inline-block;
+}
+.signup{
+    margin-right: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 8px;
+    border: none;
+    border-bottom:1px ridge #ffffff;
+}
+input::placeholder{
+    color: #ffffff;
+}
+input:focus{
+    outline: none;
+}
+button{
+    border:1px solid #ffffff;
+    padding:10px;
+    margin-top:60px;
+    width: 150px;
+    background-color: #ffffff;
+    color: black;
+}
+main{
+    margin:auto;
+    margin-top: 100px;
+    width:75%;
+}
+.error{
+    color:red;
+    display: none;
+}
+.success{
+    color:green;
+    display: none;
+}
