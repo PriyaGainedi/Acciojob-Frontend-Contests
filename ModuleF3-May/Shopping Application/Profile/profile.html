@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F3 Project My Profile page</title>
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">Sasta Amazon</h2>
+        <nav class="navbar">
+            <a class="home" href="#">Home</a>
+            <a class="profile" href="#">My Profile</a>
+            <a class="myCart" href="#">My Cart</a>
+            <a class="logout" href="#">Logout</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <h3><u>My Profile</u></h3>
+            <p>Name: <strong><span class="name">My Name</span></strong></p>
+            <p>Email: <strong><span class="email">My Email</span></strong></p>
+        </div>
+        <div class="change">
+            <h3><u>Change Password</u></h3>
+            <button class="changePass">Click Here</button>
+        </div>
+    </div>
+    <div class="changePassword hide">
+        <div class="notification"></div>
+        <form>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="oldPassword" placeholder="Old Password"
+                    aria-describedby="oldPasswordHelp">
+                <div id="oldPasswordHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="newPassword" placeholder="New Password"
+                    aria-describedby="newPasswordHelp">
+                <div id="newPasswordHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="confirmNewPassword" placeholder="Confirm New Password"
+                    aria-describedby="confirmNewPasswordHelp">
+                <div id="confirmNewPasswordHelp" class="form-text"></div>
+            </div>
+
+            <button type="button" class="btn btn-primary" id="change">Change</button>
+            <button type="button" class="btn btn-primary" id="logout">Logout</button>
+        </form>
+    </div>
+    <script src="./profile.js"></script>
+</body>
+
+</html>
