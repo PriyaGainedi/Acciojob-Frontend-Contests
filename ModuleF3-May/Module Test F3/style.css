@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+section{
+    background-color: black;
+    color:white;
+    padding: 15px;
+    width:100%;
+    box-sizing: border-box;
+}
+.image{
+    width: 100%;
+    height: 300px;
+}
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    width: 100%;
+}
+form{
+    width:100%;
+}
+.list{
+    text-decoration: underline;
+    color:#3366CC;
+    list-style: none;
+    cursor: pointer;
+}
